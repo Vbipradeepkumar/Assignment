@@ -77,7 +77,7 @@ angular.module('formApp', ['ngAnimate', 'ui.router'])
             })
             .success(function(data) {
                 var qrcode = new QRCode("form", {
-                    text: "hi",
+                    text: rand_id,
                      width: 128,
                     height: 128,
                     colorDark : "#000000",
